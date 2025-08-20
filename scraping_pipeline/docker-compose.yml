@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  scraper:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - EMAIL=chsaimurali09@gmail.com
+      - PASSWORD=SAI@8688346434
+      - MONGODB_URI=mongodb+srv://sai:sai1099@cluster0.l9c5xyp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      - JOB_TITLE=hiring
+      - MODE=date_posted
+    volumes:
+      - .:/app

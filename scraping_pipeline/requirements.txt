@@ -1,0 +1,15 @@
+beautifulsoup4
+selenium
+fastapi
+lxml
+uvicorn
+selenium
+beautifulsoup4
+pymongo
+webdriver-manager
+lxml
+python-dotenv
+fastapi
+uvicorn
+requests
+python-multipart

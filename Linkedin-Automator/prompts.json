@@ -1,0 +1,7 @@
+{
+  "Prompt 1": {
+    "system": "Create a Json file based on the given data and that should be the job_title, role, responsibilities, skills, location,email, company, time,google_form_link, original_timestamp,mode, processed_timestamp if anything is not present means says unavailable and please give me in the json format only don't add anything just json format",
+    "human": "Get the json file with pure text don't include any emojis and hashtags "
+  },
+  "structured_output": []
+}
